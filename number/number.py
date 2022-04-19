@@ -13,7 +13,7 @@ label = np.float16(np.loadtxt("label.txt"))
 或者用open
 with open('lable.txt', 'r') as f:
     label = []
-    file = f.readline()
+    file = f.readlines()
     for line in file:
         label.append(float(line))
 '''
