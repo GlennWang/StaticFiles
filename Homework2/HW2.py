@@ -1,21 +1,10 @@
-import imp
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 from sklearn.metrics import confusion_matrix, mean_squared_error
-"""
-簡略但可能看不懂法
-with open("iris_x.txt") as f:
-    x = []
-    for line in range(打開看裡面有幾行):
-        x.append(np.array(f.readline().split(), dtype=float))
-    data = np.array(x)
-with open("iris_y.txt") as f:
-    label = np.array(f.read().split(), dtype=int) 
-"""
-# 正常讀檔案思路
+
 with open("iris_x.txt", 'r') as f:
     x = []
     file = f.readlines()
