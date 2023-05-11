@@ -1,2 +1,2 @@
 # StaticFiles
-My blog' 
+My blog's static files.
