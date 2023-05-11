@@ -1,0 +1,2 @@
+# StaticFiles
+My blog' 
