@@ -1,2 +1,3 @@
 # StaticFiles
-My blog's static files.
+
+My static files.
